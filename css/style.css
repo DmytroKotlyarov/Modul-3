@@ -10,7 +10,7 @@ body {
 }
 
 body, footer {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 a {
 text-decoration: none;
@@ -28,10 +28,10 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 .list {
-    list-style: none;
+list-style: none;
 }
 /* --------Header-------- */
 .header-logo {
@@ -219,18 +219,18 @@ letter-spacing: 0.03em;
 color: var(--third-header-color);
 }
 .btn-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 2,16;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-header-color);
-    cursor: pointer;
-    border: transparent;
-    }
-    .btn-button:hover,
-    .btn-button:focus{
-    color: var(--second-header-color);
-    background-color: var(--accent-color);
-    }
+font-weight: 500;
+font-size: 16px;
+line-height: 2,16;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-header-color);
+cursor: pointer;
+border: transparent;
+}
+.btn-button:hover,
+.btn-button:focus{
+color: var(--second-header-color);
+background-color: var(--accent-color);
+}
