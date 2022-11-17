@@ -95,9 +95,7 @@ span.header-logo {
 }
 .header-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -114,9 +112,8 @@ span.header-logo {
 }
 .header-mail {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+    margin-right: 45px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -125,9 +122,7 @@ span.header-logo {
 }
 .header-tel {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
