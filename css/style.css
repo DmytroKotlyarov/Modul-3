@@ -24,11 +24,6 @@ ul {
 button {
     cursor: pointer;
 }
-.section {
-    margin-bottom: 94px;
-}
- 
-
 body, footer {
     font-family: 'Roboto', sans-serif;
 }
@@ -59,7 +54,12 @@ a {
     list-style: none;
 }
 /* --------Header-------- */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-logo {
+    margin-right: 93px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -82,12 +82,13 @@ span.header-logo {
 .header-tel:focus{
     color: var(--accent-color);
 }
-.dask {
+.header-dask {
     display: flex;
     align-items: center;
 }
 .header-list {
     display: flex;
+    margin-left: 93px;
 }
 .header-list .item + .item {
     margin-left: 50px;
@@ -106,6 +107,7 @@ span.header-logo {
 }
 .list {
     display: flex;
+    margin-left: auto;
 }
 .list .items + .items {
     margin-left: 30px;
@@ -134,10 +136,8 @@ span.header-logo {
 }
 /* --------Main-hero-------- */
 .hero {
+    padding: 200px 0px;
     background-color: #2F303A;
-}
-.hero{
-    margin-bottom: 100px;
 }
 .hero-title {
     margin-bottom: 40px;
@@ -152,6 +152,11 @@ span.header-logo {
     color: var(--second-header-color);
 }
 .main-button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    border-radius: 4px;
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -168,7 +173,10 @@ span.header-logo {
     background-color: var(--accent-color);
 }
 /* --------Main-Advantages--------- */
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .advantages-title {
     margin-bottom: 10px;
 
@@ -188,6 +196,9 @@ span.header-logo {
     color: var(--third-header-color);
 }
 /* --------Main-Directions--------- */
+.directions {
+    padding-bottom: 94px;
+}
 .directions-title {
     margin-bottom: 50px;
 
@@ -199,6 +210,13 @@ span.header-logo {
     color: var(--primary-header-color);
 }
 /* --------Main-Team---------- */
+.items-img {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team {
+    background-color: #F5F4FA;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -227,16 +245,25 @@ span.header-logo {
 }
 /* --------Footer---------- */
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
-}
-.footer-logo {
-
 }
 a.footer-logo {
     color: #2196F3;
 }
 span.footer-logo {
     color: #FFFFFF;
+}
+.footer-list {
+    margin-top: 20px;
+    list-style: none;
+}
+.footer-list li {
+    margin-bottom: 9px;
+}
+.footer-list li:last-child {
+    margin-bottom: 0;
 }
 .footer-all {
     font-style: normal;
@@ -266,7 +293,13 @@ span.footer-logo {
     color: rgba(255, 255, 255, 0.6);
 }
 /* --------Portfolio-------- */
+.portfolio-header {
+    border-bottom: 1px solid #757575;
+}
 .btn-button {
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 6px 22px;
     margin-bottom: 34px;
 
     font-weight: 500;
@@ -279,23 +312,37 @@ span.footer-logo {
     cursor: pointer;
     border: transparent;
 }
+.portfolio-control {
+    margin-left: 8px;
+}
+.portfolio-control:first-child {
+    margin-left: 0;
+}
 .btn-button:hover,
 .btn-button:focus{
     color: var(--second-header-color);
     background-color: var(--accent-color);
 }
-.portfolio-list .items {
-    width: calc((100%-120px) / 3;
+.btn-list {
+    margin-left: auto;
+    margin-right: auto;
 }
-.btn-list .portfolio-control + .portfolio-control {
-    margin-left: 8px;
-}
-.portfolio-list {
+.list-portfolio {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 }
+.list-portfolio li {
+    margin-bottom: 30px;
+    margin-right: 27px;
+    list-style: none;
+    border: 1px solid #EEEEEE;
+}
+.list-portfolio li:nth-child(3n) {
+    margin-right: 0;
+}
 .portfolio-title {
+    margin-left: 24px;
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -306,10 +353,19 @@ span.footer-logo {
     color: var(--primary-header-color);
 }
 .portfolio-text {
+    margin-left: 24px;
+    margin-bottom: 20px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1,87;
 /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--third-header-color);
+}
+.list-port {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
 }
