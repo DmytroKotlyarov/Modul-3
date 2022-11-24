@@ -319,6 +319,21 @@ span.header-logo {
     height: 20px;
 }
 /* --------Main company section постійні кліенти---------- */
+.company-section {
+    height: 252px;
+}
+.company {
+    width: 1170px;
+    height: 182px;
+    display: flex;
+}
+.compani-items {
+    width: 170px;
+    height: 92px;
+    padding: 30px 64px;
+    display: flex;
+}
+
 
 /* --------Footer---------- */
 .footer {
